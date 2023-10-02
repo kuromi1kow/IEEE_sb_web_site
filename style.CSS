@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 header {
   z-index: 999;
   position: fixed;
@@ -32,9 +33,9 @@ header .navbar {
 header .navbar .menu {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   list-style: none;
-  right: 120%;
+  right: 140%;
   user-select: none;
 }
 .menu-item > a {
@@ -44,12 +45,17 @@ header .navbar .menu {
   margin: 20px;
   padding: 25px 0;
 }
+.menu-item:active{
+  color: aqua;
+}
+
 .photo {
   border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
   padding: 15px; /* Расстояние от картинки до рамки */
   background: #666; /* Цвет фона */
   margin-right: 10px; /* Отступ справа */
   margin-bottom: 10px; /* Отступ снизу */
+  bottom: 400%;
 }
 .form {
   background-color: #666;
@@ -93,4 +99,8 @@ tbody tr:hover {
 }
 body {
   zoom: 95%;
+}
+.create{
+  color: grey;
+  font-size: large;
 }
