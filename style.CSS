@@ -30,6 +30,9 @@ body{
 .navbar-nav #nav-link2:hover {
   color: blueviolet;
 }
+.sponsorss{
+  max-width: 100%;
+}
 .back .backgr{
   text-align: center;
   padding: 20px 0px;
