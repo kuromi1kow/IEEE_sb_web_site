@@ -1,121 +1,84 @@
-body {
-  font-family: Arial, sans-serif;
+body{
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
-
-.container {
+.container{
+  text-align: center;
   max-width: 960px;
-  margin: 0 auto;
-  text-align: center;
 }
-
-.navbar-brand img {
-  max-height: 40px;
+.navbar-brand .logo {
+  width: 80px;
+  height: auto;
 }
-
-.navbar-nav .nav-link {
-  color: #000;
+.navbar-nav .nav-item::after {
+  content:"\00a0"; 
+}
+.navbar-nav #nav-link1 {
   font-weight: bold;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
 }
-
-
-.back {
+.navbar-nav #nav-link2 {
+  font-weight: bold;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration:none;
+}
+.navbar-nav #nav-link1:hover,
+.navbar-nav #nav-link2:hover {
+  color: blueviolet;
+}
+.back .backgr{
   text-align: center;
+  padding: 20px 0px;
+  max-width: 100%;
+}
+.about{
+  text-align: center;
+}
+.main{
+  background-color: whitesmoke;
   padding: 20px 0;
 }
-
-.back img {
+.main img{
   max-width: 100%;
 }
 
-.about {
-  text-align: center;
-}
-
-
-.main {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-}
-
-.main img {
-  max-width: 100%;
-}
-
-
-.footer {
-  background-color: #f8f9fa;
+.footer{
+  background-color: whitesmoke;
   padding: 40px 0;
 }
-
 .footer h4 {
   font-weight: bold;
 }
-
-.footer .text {
+.footer .text{
   margin-bottom: 20px;
 }
-
-.footer ul {
+.footer ul{
   list-style: none;
-  padding: 0;
+  padding: 0px;
 }
-
-.footer ul li {
-  margin-bottom: 10px;
-}
-
-.footer a {
-  color: #000;
+.footer a{
+  color: black;
   text-decoration: none;
 }
-
 .footer .form {
   margin-top: 20px;
-}
-
-.footer .form .form-control {
   margin-bottom: 10px;
 }
-
 
 .container h6 {
   text-align: center;
   margin-top: 40px;
 }
 
-.container p {
-  text-align: center;
-}
 
-.container .create {
-  color: #888;
-}
 
-header {
-  background-color: transparent;
-}
 
-.navbar {
-  background-color: transparent;
-  border: none;
 
-}
 
-.navbar-nav .nav-link {
-  color: #000;
-  font-weight: bold;
-}
 
-.navbar-brand img {
-  max-height: 40px;
-}
 
-.navbar-toggler-icon {
-  color: #000;
-}
 
-.navbar-nav .nav-link:hover {
-  color: #888;
-}
