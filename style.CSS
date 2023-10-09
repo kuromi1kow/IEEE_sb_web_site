@@ -55,6 +55,7 @@ body{
 }
 .footer h4 {
   font-weight: bold;
+  color: rgb(124, 58, 185);
 }
 .footer .text{
   margin-bottom: 20px;
