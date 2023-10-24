@@ -37,19 +37,22 @@ body{
   position: relative;
 }
 
-.backgr {
+.carousel-item {
   display: block;
   width: 1687px;
   height: 850px;
-  filter: brightness(0.5);
   position: relative;
   padding: 20px 0px;
+}
+
+.backgr {
   object-fit: cover;
+  filter: brightness(0.5);
 }
 
 .AITU {
   position: absolute;
-  top: 35%;
+  top: 40%;
   text-align: center;
   color: white;
   font-size: 70px;
@@ -59,14 +62,13 @@ body{
 
 .SB{
   position: absolute;
-  top: 45%;
+  top: 50%;
   text-align: center;
   color: white;
   font-size: 70px;
   left: 150px;
   font-weight: bold;
 }
-
 .about{
   text-align: center;
 }
