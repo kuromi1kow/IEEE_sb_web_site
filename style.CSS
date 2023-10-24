@@ -28,16 +28,44 @@ body{
 }
 .navbar-nav #nav-link1:hover,
 .navbar-nav #nav-link2:hover {
-  color: blueviolet;
+  color: #008170;
 }
 .sponsorss{
   max-width: 100%;
 }
-.back .backgr{
-  text-align: center;
-  padding: 20px 0px;
-  max-width: 100%;
+.back {
+  position: relative;
 }
+
+.backgr {
+  display: block;
+  width: 1687px;
+  height: 850px;
+  filter: brightness(0.5);
+  position: relative;
+  padding: 20px 0px;
+}
+
+.AITU {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  left: 150px;
+  font-weight: bold;
+}
+
+.SB{
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  left: 150px;
+  font-weight: bold;
+}
+
 .about{
   text-align: center;
 }
@@ -81,12 +109,3 @@ body{
   margin-top: 40px;
   
 }
-
-
-
-
-
-
-
-
-
