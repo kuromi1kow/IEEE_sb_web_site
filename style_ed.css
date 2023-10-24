@@ -1,45 +1,43 @@
-body{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-
+.container{
+  text-align: center;
+  max-width: 960px;
+}
+.navbar-brand .logo {
+  width: 80px;
+  height: auto;
+}
+.navbar-nav .nav-item::after {
+  content:"\00a0"; 
+}
+.navbar-nav #nav-link1 {
+  font-weight: bold;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  
+}
+.navbar-nav #nav-link2 {
+  font-weight: bold;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration:none;
+}
+.navbar-nav #nav-link1:hover,
+.navbar-nav #nav-link2:hover {
+  color: #008170;
+}
+  .container .photo_mid {
+    width: 300px;
+    height: 300px;
   }
-  .container{
-    text-align: center;
-    max-width: 960px;
-  }
-  .navbar-brand .logo {
-    width: 100px;
-    height: auto;
-    position: relative;
-    right:  90px;
-
-  }
-  .navbar-nav .nav-item::after {
-    content:"\00a0"; 
-  }
-  .navbar-nav #nav-link1 {
-    font-weight: bold;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  .txt_h1{
+    font-size: large;
     text-decoration: none;
-    position: relative;
-    right:  80px;
+    color: black;
   }
-  .navbar-nav #nav-link2 {
-    font-weight: bold;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration:none;
-    position: relative;
-    right:  70px;
+  .txt_h1:hover{
+   color:  #008170;
   }
-  .navbar-nav #nav-link1:hover,
-  .navbar-nav #nav-link2:hover {
-    color: blueviolet;
-  }
-  .carousel-inner .carousel-item{
-    padding: 20px 0px;
-    max-width: 100%;
-  }
+
+
   
