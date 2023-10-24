@@ -71,6 +71,7 @@ body{
 }
 .about{
   text-align: center;
+  color: #232D3F;
 }
 .main{
   background-color: whitesmoke;
@@ -86,7 +87,7 @@ body{
 }
 .footer h4 {
   font-weight: bold;
-  color: rgb(124, 58, 185);
+  color: #445D48
 }
 .footer .text{
   margin-bottom: 20px;
@@ -111,4 +112,17 @@ body{
   text-align: center;
   margin-top: 40px;
   
+}
+.IEEE_photo{
+ height: 200px;
+}
+.footer_name{
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer_name2{
+  font-weight: bold;
+  text-decoration: none;
+  top: 20px;
+  display: relative;
 }
