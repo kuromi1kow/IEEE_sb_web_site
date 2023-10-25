@@ -50,6 +50,7 @@ body{
   filter: brightness(0.5);
 }
 
+
 .AITU {
   position: absolute;
   top: 40%;
@@ -125,4 +126,30 @@ body{
   text-decoration: none;
   top: 20px;
   display: relative;
+}
+.pj{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color:#445D48 ;
+}
+.feed_center{
+  text-align: center;
+}
+.feed_back{
+display: block;
+}
+.img-fluid.feed_back {
+
+  position: relative;
+  right: 190px;
+  max-width: none;
+}
+.img-fluid{
+  max-width: none;
+}
+.button_position {
+  position: relative;
+  left: -10px;
+
 }
