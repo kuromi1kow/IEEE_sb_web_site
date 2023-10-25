@@ -1,9 +1,9 @@
-body{
+body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
-.container{
+.container {
   text-align: center;
   max-width: 960px;
 }
@@ -12,25 +12,25 @@ body{
   height: auto;
 }
 .navbar-nav .nav-item::after {
-  content:"\00a0"; 
+  content: "\00a0";
 }
 .navbar-nav #nav-link1 {
   font-weight: bold;
   color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
 }
 .navbar-nav #nav-link2 {
   font-weight: bold;
   color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-decoration:none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
 }
 .navbar-nav #nav-link1:hover,
 .navbar-nav #nav-link2:hover {
   color: #008170;
 }
-.sponsorss{
+.sponsorss {
   max-width: 100%;
 }
 .back {
@@ -50,7 +50,6 @@ body{
   filter: brightness(0.5);
 }
 
-
 .AITU {
   position: absolute;
   top: 40%;
@@ -61,7 +60,7 @@ body{
   font-weight: bold;
 }
 
-.SB{
+.SB {
   position: absolute;
   top: 50%;
   text-align: center;
@@ -70,34 +69,34 @@ body{
   left: 150px;
   font-weight: bold;
 }
-.about{
+.about {
   text-align: center;
-  color: #232D3F;
+  color: #232d3f;
 }
-.main{
+.main {
   background-color: whitesmoke;
   padding: 20px 0;
 }
-.main img{
+.main img {
   max-width: 100%;
 }
 
-.footer{
+.footer {
   background-color: whitesmoke;
   padding: 40px 0;
 }
 .footer h4 {
   font-weight: bold;
-  color: #445D48
+  color: #445d48;
 }
-.footer .text{
+.footer .text {
   margin-bottom: 20px;
 }
-.footer ul{
+.footer ul {
   list-style: none;
   padding: 0px;
 }
-.footer a{
+.footer a {
   color: black;
   text-decoration: none;
 }
@@ -105,55 +104,54 @@ body{
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.footer .sb_chapter p{
+.footer .sb_chapter p {
   color: black;
   margin-bottom: 0px;
 }
 .container h6 {
   text-align: center;
   margin-top: 40px;
-  
 }
-.IEEE_photo{
- height: 200px;
+.IEEE_photo {
+  height: 200px;
 }
-.footer_name{
+.footer_name {
   font-weight: bold;
   text-decoration: none;
 }
-.footer_name2{
+.footer_name2 {
   font-weight: bold;
   text-decoration: none;
   top: 20px;
   display: relative;
 }
 .footer_name:hover,
-.footer_name2:hover{
+.footer_name2:hover {
   color: #008170;
 }
-.pj{
+.pj {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  color:#445D48 ;
+  color: #445d48;
 }
-.feed_center{
+.feed_center {
   text-align: center;
 }
-.feed_back{
-display: block;
+.feed_back {
+  display: block;
 }
 .img-fluid.feed_back {
-
   position: relative;
   right: 190px;
   max-width: none;
 }
-.img-fluid{
+.img-fluid {
   max-width: none;
 }
 .button_position {
   position: relative;
   left: -10px;
-
 }
+
+
