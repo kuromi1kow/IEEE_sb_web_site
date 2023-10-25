@@ -127,6 +127,10 @@ body{
   top: 20px;
   display: relative;
 }
+.footer_name:hover,
+.footer_name2:hover{
+  color: #008170;
+}
 .pj{
   font-weight: bold;
   font-size: 30px;
