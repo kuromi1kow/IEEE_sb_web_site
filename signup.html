@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+    <link
+    rel="icon"
+    type="image/x-icon"
+    href="img/cropped-465017a7-a9e7-42b9-b6c3-d8bab29708f5.png"
+  />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="">
+              <img class="logo" src="img/cropped-465017a7-a9e7-42b9-b6c3-d8bab29708f5.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a id="nav-link1" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a id="nav-link2" href="educational.html">Education material</a>
+                </li>
+                <li class="nav-item">
+                  <a id="nav-link2" href="signup.html">Sign up</a>
+                </li>
+                <li class="nav-item">
+                  <a id="nav-link2" href="login.html">Log in</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <br>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="passwordInput" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw" id="passwordInput" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+      <footer class="bg-primary text-white text-center text-lg-start bg-dark">
+        <br>
+        <br>
+        <div class="container p-4">
+          <div class="row">
+      
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Our Mission</h5>
+              <p>
+                As members of the IEEE AITU Student Chapter, we strive to promote the mental, 
+                social and academic well-being of our fellow students. Our main goal is to raise awareness and 
+                expand knowledge in the field of electrical engineering.
+              </p>
+            </div>
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="index.html" class="text-white footer_name">Home</a>
+                </li
+              </ul>
+            </div>
+  
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a  id="ft_materials" href="educational.html" class="text-white footer_name">Education materials</a>
+                </li
+              </ul>
+            </div>
+          </div>  
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);" id="animatedText">
+          © 2023 Astana IT University:
+          <a class="text-white" href="https://github.com/kuromi1kow">Geniyat Assylkhan</a>
+        </div>
+      </footer>
+</body>
+<script src="sign.JS"></script>
+</html>
