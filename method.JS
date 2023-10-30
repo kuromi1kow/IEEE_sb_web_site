@@ -14,21 +14,21 @@ text.btn.addEventListener("click", function () {
     }
 });
 
-// const firstButton = document.getElementById("nav-link1");
-// const secondButton = document.getElementById("middle");
-// const thirdButton = document.getElementById("ft_materials");
+const firstButton = document.getElementById("nav-link1");
+const secondButton = document.getElementById("nav-link2");
+const thirdButton = document.getElementById("nav-link2"); // Note the corrected ID
 
-// document.addEventListener("keypress", function (event) {
-//     if (event.key === '1' && document.activeElement === firstButton) {
-//         window.location.href = 'index.html#nav-link1';
-//     }
-//     else if (event.key === '2' && document.activeElement === secondButton) {
-//         window.location.href = 'index.html#middle';
-//     }
-//     else if (event.key === '3' && document.activeElement === thirdButton) {
-//         window.location.href = 'index.html#ft_materials';
-//     }
-// });
+document.addEventListener("keypress", function (event) {
+    if (event.key === 'q' && document.activeElement === firstButton) {
+        window.location.href = 'index.html';
+    }
+    else if (event.key === 'w' && document.activeElement === secondButton) {
+        window.location.href = 'educational.html';
+    }
+    else if (event.key === 'e' && document.activeElement === thirdButton) {
+        window.location.href = 'login.html';
+    }
+});
 
 const submitButton = document.getElementById("submitButton");
 
