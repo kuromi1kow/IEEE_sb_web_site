@@ -16,19 +16,18 @@ text.btn.addEventListener("click", function () {
 
 const firstButton = document.getElementById("nav-link1");
 const secondButton = document.getElementById("nav-link2");
-const thirdButton = document.getElementById("nav-link2"); // Note the corrected ID
+const thirdButton = document.getElementById("nav-link2");
 
 document.addEventListener("keypress", function (event) {
-    if (event.key === 'q' && document.activeElement === firstButton) {
-        window.location.href = 'index.html';
-    }
-    else if (event.key === 'w' && document.activeElement === secondButton) {
-        window.location.href = 'educational.html';
-    }
-    else if (event.key === 'e' && document.activeElement === thirdButton) {
-        window.location.href = 'login.html';
-    }
+  if (event.key === '1' && document.activeElement === firstButton) {
+    window.location.href = 'index.html';
+  } else if (event.key === '2' && document.activeElement === secondButton) {
+    window.location.href = 'educational.html';
+  } else if (event.key === '3' && document.activeElement === thirdButton) {
+    window.location.href = 'login.html';
+  }
 });
+
 
 const submitButton = document.getElementById("submitButton");
 
