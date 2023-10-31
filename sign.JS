@@ -2,7 +2,7 @@ const modal = document.querySelector('#id01');
 const passwordInput = document.querySelector('#passwordInput');
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
@@ -19,6 +19,6 @@ passwordInput.addEventListener("input", function () {
     if (!/^(?=.*[a-zA-Z])(?=.*\d)/.test(passwordInput.value)) {
         passwordInput.setCustomValidity("Пароль должен содержать только буквы и как минимум одно число");
     } else {
-        passwordInput.setCustomValidity(""); 
+        passwordInput.setCustomValidity("");
     }
 });

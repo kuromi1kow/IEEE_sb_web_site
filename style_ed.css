@@ -17,13 +17,13 @@ body {
 .navbar-nav #nav-link1 {
   font-weight: bold;
   color: white;
-  font-family: "Franklin Gothic Medium",  sans-serif;
+  font-family: "Franklin Gothic Medium", sans-serif;
   text-decoration: none;
 }
 .navbar-nav #nav-link2 {
   font-weight: bold;
   color: white;
-  font-family: "Franklin Gothic Medium",  sans-serif;
+  font-family: "Franklin Gothic Medium", sans-serif;
   text-decoration: none;
 }
 .navbar-nav #nav-link1:hover,
@@ -53,7 +53,6 @@ body {
   font-size: 30px;
   text-decoration: none;
   color: black;
-
 }
 .txt_h1:hover {
   color: #008170;

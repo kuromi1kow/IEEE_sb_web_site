@@ -1,39 +1,42 @@
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box;
+}
 
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    text-align: center;
-    max-width: 960px;
-  }
-  .navbar-brand .logo {
-    width: 80px;
-    height: auto;
-  }
-  .navbar-nav .nav-item::after {
-    content: "\00a0";
-  }
-  .navbar-nav #nav-link1 {
-    font-weight: bold;
-    color: white;
-    font-family: "Franklin Gothic Medium",  sans-serif;
-    text-decoration: none;
-  }
-  .navbar-nav #nav-link2 {
-    font-weight: bold;
-    color: white;
-    font-family: "Franklin Gothic Medium",  sans-serif;
-    text-decoration: none;
-  }
-  .navbar-nav #nav-link1:hover,
-  .navbar-nav #nav-link2:hover {
-    color: #008170;
-  }
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  max-width: 960px;
+}
+.navbar-brand .logo {
+  width: 80px;
+  height: auto;
+}
+.navbar-nav .nav-item::after {
+  content: "\00a0";
+}
+.navbar-nav #nav-link1 {
+  font-weight: bold;
+  color: white;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  text-decoration: none;
+}
+.navbar-nav #nav-link2 {
+  font-weight: bold;
+  color: white;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  text-decoration: none;
+}
+.navbar-nav #nav-link1:hover,
+.navbar-nav #nav-link2:hover {
+  color: #008170;
+}
 /* Full-width input fields */
-  input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -42,7 +45,8 @@ body {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type="text"]:focus,
+input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -54,7 +58,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -65,7 +69,7 @@ button {
 }
 
 button:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 /* Extra styles for the cancel button */
@@ -75,7 +79,8 @@ button:hover {
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+.cancelbtn,
+.signupbtn {
   float: left;
   width: 50%;
 }
@@ -94,27 +99,28 @@ button:hover {
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
+  .cancelbtn,
+  .signupbtn {
     width: 100%;
   }
 }
 .footer_name {
-    font-weight: bold;
-    text-decoration: none;
-  }
-  .footer_name2 {
-    font-weight: bold;
-    text-decoration: none;
-    top: 20px;
-    display: relative;
-  }
-  .footer_name:hover,
-  .footer_name2:hover {
-    color: #008170;
-  }
-  .pj {
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    color: #445d48;
-  }
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer_name2 {
+  font-weight: bold;
+  text-decoration: none;
+  top: 20px;
+  display: relative;
+}
+.footer_name:hover,
+.footer_name2:hover {
+  color: #008170;
+}
+.pj {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #445d48;
+}
